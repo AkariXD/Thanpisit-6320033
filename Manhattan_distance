@@ -1,0 +1,11 @@
+import paste
+import numpy as np
+
+def manhattan_distance(a, b):
+    return np.abs(a - b).sum()
+
+a = ['1', '2']
+b = ['-3', '5']
+print(manhattan_distance(np.array(a, dtype=float), np.array(b, dtype=float)))
+## -- End pasted text --
+4.0
